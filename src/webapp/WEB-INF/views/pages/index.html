@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div th:each="message : ${messages}">
+        <a th:text="${message}">message</a>
+</div>
+
+</br>
+</hr>
+
+<a href="/cars">Cars</a>
+
+</body>
+</html>
